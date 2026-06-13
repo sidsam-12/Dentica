@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-mist text-navy antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-white;
+}
+
+.input {
+  @apply w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-navy outline-none transition placeholder:text-slate-400 focus:border-dentalBlue focus:ring-4 focus:ring-dentalBlue/10 dark:border-white/10 dark:bg-white/5 dark:text-white dark:placeholder:text-slate-500;
+}
+
+.section-shell {
+  @apply py-20 sm:py-24;
+}

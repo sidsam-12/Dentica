@@ -1,0 +1,19 @@
+{
+  "name": "dentica-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n web,api -c blue,green \"npm run dev --workspace @dentica/web\" \"npm run dev --workspace @dentica/api\"",
+    "dev:web": "npm run dev --workspace @dentica/web",
+    "dev:api": "npm run dev --workspace @dentica/api",
+    "build": "npm run build --workspace @dentica/web && npm run build --workspace @dentica/api",
+    "lint": "npm run lint --workspace @dentica/web && npm run lint --workspace @dentica/api",
+    "typecheck": "npm run typecheck --workspace @dentica/web && npm run typecheck --workspace @dentica/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
