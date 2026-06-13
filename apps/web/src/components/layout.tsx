@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Menu, PhoneCall, MessageCircle } from 'lucide-react';
 import { useState } from 'react';
 import { Container, ThemeToggle } from './ui';
-import { clinic } from '@/lib/site';
+import { clinic } from '../lib/site';
 
 const nav = [
   { href: '/', label: 'Home' },

@@ -1,5 +1,5 @@
-import { Container, SectionEyebrow, SectionTitle } from '@/components/ui';
-import { blogPosts } from '@/lib/site';
+import { Container, SectionEyebrow, SectionTitle } from '../../components/ui';
+import { blogPosts } from '../../lib/site';
 
 export default function BlogPage() {
   return (

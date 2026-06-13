@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { ArrowRight, CalendarDays, CheckCircle2, ShieldCheck, Star } from 'lucide-react';
-import { Badge, Container, PrimaryButton, SecondaryButton, SectionEyebrow, SectionTitle } from '@/components/ui';
-import { MotionStrip } from '@/components/motion-strip';
-import { blogPosts, clinic, doctors, faqs, features, services, testimonials } from '@/lib/site';
+import { Badge, Container, PrimaryButton, SecondaryButton, SectionEyebrow, SectionTitle } from '../components/ui';
+import { MotionStrip } from '../components/motion-strip';
+import { blogPosts, clinic, doctors, faqs, features, services, testimonials } from '../lib/site';
 
 export default function HomePage() {
   return (

@@ -1,5 +1,5 @@
-import { BookingForm } from '@/components/booking-form';
-import { Container, SectionEyebrow, SectionTitle } from '@/components/ui';
+import { BookingForm } from '../../components/booking-form';
+import { Container, SectionEyebrow, SectionTitle } from '../../components/ui';
 
 export default function BookPage() {
   return (

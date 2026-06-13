@@ -1,4 +1,4 @@
-import { Container, SectionEyebrow, SectionTitle } from '@/components/ui';
+import { Container, SectionEyebrow, SectionTitle } from '../../components/ui';
 
 const panels = [
   'Patient Management',

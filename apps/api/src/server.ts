@@ -20,4 +20,6 @@ export function createApp() {
 
 const app = createApp();
 
-export default app;
+export default function handler(request: express.Request, response: express.Response) {
+  return app(request, response);
+}

@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { doctors, services } from '@/lib/site';
+import { doctors, services } from '../lib/site';
 
 const initialState = {
   name: '',

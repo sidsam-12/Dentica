@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Container, SectionEyebrow, SectionTitle } from '@/components/ui';
+import { Container, SectionEyebrow, SectionTitle } from '../../../components/ui';
 
 export default function AdminLoginPage() {
   const [role, setRole] = useState('Super Admin');

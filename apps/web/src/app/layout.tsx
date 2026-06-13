@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import './globals.css';
-import { Footer, FloatingWhatsApp, Header } from '@/components/layout';
-import { clinic } from '@/lib/site';
+import { Footer, FloatingWhatsApp, Header } from '../components/layout';
+import { clinic } from '../lib/site';
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
